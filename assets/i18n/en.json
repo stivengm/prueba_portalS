@@ -1,0 +1,93 @@
+{
+  "general": {
+    "errors": {
+      "404": "¡Ups!, parece que algo salió mal y no logramos completar tu solicitud. Te invitamos a reintentarlo nuevamente.",
+      "500": "Estamos trabajando para solucionar este error. Por favor intenta más tarde."
+    }
+  },
+  "error": {
+      "validate_data": {
+          "documentId": {
+              "empty": "El campo cédula es obligatorio",
+              "regex": "El campo cédula no tiene el formato correcto",
+              "length_min": "El campo cédula debe ser mayor a 6 caracteres",
+              "length_max": "El campo cédula debe ser menor a 10 caracteres"
+          },
+          "documentType": {
+              "empty": "El campo cédula es obligatorio",
+              "type": "El tipo de documento no es aceptado"
+          }
+      }
+  },
+  "dashboard": {
+    "welcome": "Bienvenido",
+    "text-welcome": "soy<b>yo</b> te ayudará a finalizar tu proceso con {{value}}",
+    "title-register": "¿Ya eres usuario en soyyo?",
+    "text-register": "Revisa tu celular, en un momento recibirás una notificación.",
+    "text-help": "¿Necesitas ayuda?"
+  },
+  "carrusel": {
+      "title": "¿No estás registrado?",
+      "slideFirst": {
+        "subtitle": "Descarga el App",
+        "text": "Disponible en Google Play para <br>Android y App Store para iOS."
+      },
+      "slideSecond": {
+        "subtitle": "Presiona el botón para abrir la cámara <br>y escanear el código QR",
+        "text": "En la pantalla de inicio, ubica el lector <br>de QR en la parte inferior de la pantalla."
+      },
+      "slideThird": {
+        "subtitle": "Lee el QR",
+        "text": "Escanea el siguiente código con la cámara, <br>apuntando directamente a la siguiente forma:"
+      },
+      "slideFourth": {
+        "subtitle": "Llena tus datos y autoriza",
+        "text": "Llena los datos que te solicitamos. Al finalizar, <br>autoriza a {{value}} el uso de tus datos."
+      }
+  },
+  "signup": {
+    "title": "Descarga la aplicación para tu sistema operativo:",
+    "menssage": {
+      "optionAndroid": "Android",
+      "optionIphone": "iPhone",
+      "text": "Una vez descargada, escanea este código QR:"
+    },
+    "menssageInfo": {
+      "subtitle": "¿Ya eres un usuario de soyyo?",
+      "text": "En un momento recibirás una notificación en tu celular."
+    }
+  },
+  "validate-token": {
+    "pages": {
+      "validate": {
+        "title": "Estamos validando <br> tu correo electrónico",
+        "subtitle": {
+          "text": "Recuerda que esta validación tiene ",
+          "span": "vigencia de 10 minutos."
+        }
+      }
+    },
+    "state": {
+      "loading": {
+        "description": "Estamos validando, solo tomará unos segundos..."
+      },
+      "success": {
+        "title": "Revisa tu teléfono",
+        "description": "Pronto enviaremos una notificación de respuesta a tu teléfono.",
+        "end": "Ya puedes cerrar esta pestaña."
+      },
+      "error": {
+        "title": "Tu verificación ha expirado",
+        "description": "Pero no te preocupes, ingresa a soy<b>yo</b> App e inténtalo de nuevo."
+      }
+    },
+    "footer": {
+      "title": "¿Tienes dudas?",
+      "options": {
+        "contact": "Contáctanos",
+        "report": "Reportar falla",
+        "FAQ": "Preguntas frecuentes"
+      }
+    }
+  }
+}
